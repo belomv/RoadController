@@ -58,7 +58,7 @@ public class Car
 
     public String toString()
     {
-        String special = isSpecial ? "СПЕЦТРАНСПОРТ " : "";
+        String special = isSpecial ? "СПЕЦТРАНСПОРТ " : ""; // переменная special
         return "\n=========================================\n" +
             special + "Автомобиль с номером " + number +
             ":\n\tВысота: " + height + " мм\n\tМасса: " + weight + " кг";

@@ -11,7 +11,7 @@ public class Camera
         String randomNumber = Double.toString(Math.random()).substring(2, 5); // переменная randomNumber
         Integer randomHeight = (int) (1000 + 3500. * Math.random()); // переменна randomHeight
         Double randomWeight = 600 + 10000 * Math.random(); // переменная randomWeight
-        Car car = new Car(randomNumber, randomHeight, randomWeight, Math.random() > 0.5);
+        Car car = new Car(randomNumber, randomHeight, randomWeight, Math.random() > 0.5); // переменная car
         if(Math.random() < 0.15) {
             car.setIsSpecial();
         }

@@ -21,7 +21,7 @@ public class RoadController
     {
         for(Integer i = 0; i < 10; i++)
         {
-            Car car = Camera.getNextCar(); // price перменную типа Car
+            Car car = Camera.getNextCar(); // Объявили перменную типа Car
             System.out.println(car);
             System.out.println("Скорость: " + Camera.getCarSpeed(car) + " км/ч");
 
